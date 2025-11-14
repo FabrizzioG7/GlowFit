@@ -19,7 +19,7 @@
 
 /* Marca o logotipo */
 .footer-brand {
-  flex: 1;
+  flex: 2;
   min-width: 12rem;
 }
 
@@ -76,7 +76,7 @@
 }
 
 .footer-about {
-  flex: 1;
+  flex: 2;
   min-width: 200px;
   color: white;
 }
