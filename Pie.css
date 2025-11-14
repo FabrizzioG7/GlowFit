@@ -24,7 +24,7 @@
 }
 
 .footer-logo {
-  width: 9rem;
+  width: 9.5rem;
   height: auto;
   margin-bottom: 0.5rem;
 }
@@ -61,6 +61,30 @@
 
 .social-icon:hover {
   transform: scale(1.2);
+}
+
+.footer-contact {
+  flex: 1;
+  min-width: 200px;
+  color: white;
+}
+
+.footer-contact p {
+  color: #f0f0f0;
+  font-size: 0.95rem;
+  margin: 0.3rem 0;
+}
+
+.footer-about {
+  flex: 1;
+  min-width: 200px;
+  color: white;
+}
+
+.footer-about p {
+  color: #f0f0f0;
+  font-size: 0.95rem;
+  margin: 0.3rem 0;
 }
 
 /* Responsive para pantallas pequeñas */
