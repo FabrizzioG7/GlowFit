@@ -1,0 +1,307 @@
+body {
+  margin: 0;
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+
+.topheader {
+  position: fixed;
+  background-color: #1dbf8a;
+  width: 100%;
+  z-index: 100;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4rem;
+  padding: 0 4rem;
+}
+
+.Menu-Horizontal {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  gap: 7rem;
+  width: 100%;
+}
+
+.Menu-Horizontal li a {
+  display: block;
+  padding: 15px 20px;
+  color: black;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+
+.Menu-Horizontal li a:hover {
+  color: white;
+}
+
+.Menu-Horizontal li:hover .Menu-Vertical {
+  display: block;
+}
+
+.Menu-Vertical {
+  display: none;
+  position: absolute;
+  background-color: #fffc90;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 12rem;
+}
+
+.Menu-Vertical li a {
+  display: block;
+  color: black;
+  padding: 1rem;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.Menu-Vertical li a:hover {
+  background-color: #588aee;
+  color: white;
+}
+
+.logo img {
+  height: 4.3rem;
+  width: auto;
+}
+
+.Seccion-Inicio {
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background-color: #ffffff;
+  color: #333;
+}
+
+.Seccion-Inicio h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #45ce7e;
+}
+
+.div-general-inicio {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+  width: 100%;
+}
+
+.div-inicio-texto {
+  flex: 1;
+  font-size: 1.15rem;
+  padding-right: 1rem;
+  padding-left: 1.5rem;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.div-inicio-texto p + p {
+  margin-top: 1rem;
+}
+
+.div-inicio-img {
+  flex: 0.7;
+}
+
+.div-inicio-img img {
+  width: 90%;
+  height: auto;
+  border-radius: 0.5rem;
+  box-shadow: 2 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+  margin-left: 2rem;
+}
+
+.Seccion-Rutinas {
+  padding-top: 1.2rem;
+  padding-bottom: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background-color: #f7f4f4;
+  color: #333;
+}
+
+.Seccion-Rutinas h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #1dbf8a;
+}
+
+.div-general-rutinas {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: center;
+  width: 100%;
+}
+
+.div-rutinas-video {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  padding-left: 1rem;
+  padding-right: 2rem;
+}
+
+.div-rutinas-video iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+}
+
+.div-rutinas-texto {
+  flex: 1;
+  font-size: 1.15rem;
+  padding-right: 1rem;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.div-rutinas-texto p + p {
+  margin-top: 1rem;
+}
+
+.Seccion-Recetas {
+  padding-top: 1.2rem;
+  padding-bottom: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background-color: #ffffff;
+  color: #333;
+}
+
+.Seccion-Recetas h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #1dbf8a;
+}
+
+.div-general-recetas {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+  width: 100%;
+}
+
+.div-recetas-texto {
+  flex: 1;
+  font-size: 1.15rem;
+  padding-right: 1rem;
+  padding-left: 1.5rem;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.div-recetas-texto p + p {
+  margin-top: 1rem;
+}
+
+.div-recetas-img {
+  flex: 0.7;
+}
+
+.div-recetas-img img {
+  width: 90%;
+  height: auto;
+  border-radius: 0.5rem;
+  box-shadow: 2 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+  margin-left: 2rem;
+}
+
+#Recetas {
+  scroll-margin-top: 2.5rem;
+}
+
+#Rutinas {
+  scroll-margin-top: 2.5rem;
+}
+
+/* Footer general */
+.footer {
+  background-color: #1dbf8a; /* Fondo oscuro para contraste */
+  color: white;
+  padding: 2rem 1rem;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Contenedor flexible para 3 columnas */
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 75rem;
+  margin: auto;
+  gap: 2rem;
+}
+
+/* Marca o logotipo */
+.footer-brand {
+  flex: 1;
+  min-width: 12rem;
+}
+
+.footer-logo {
+  width: 9rem;
+  height: auto;
+  margin-bottom: 0.5rem;
+}
+
+/* Enlaces legales */
+.footer-links {
+  flex: 1;
+  min-width: 12rem;
+}
+
+.footer-links a {
+  display: block;
+  color: #ccc;
+  text-decoration: none;
+  margin: 0.3rem 0;
+}
+
+.footer-links a:hover {
+  color: #fff;
+}
+
+/* Redes sociales con íconos */
+.footer-social {
+  flex: 1;
+  min-width: 200px;
+}
+
+.social-icon {
+  width: 32px;
+  height: 32px;
+  margin-right: 0.5rem;
+  transition: transform 0.2s ease-in-out;
+}
+
+.social-icon:hover {
+  transform: scale(1.2);
+}
+
+/* Responsive para pantallas pequeñas */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-social img {
+    margin-bottom: 0.5rem;
+  }
+}
