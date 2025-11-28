@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Amarante&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
 /* Contenedor principal: Centra el formulario */
 .login-container {
   display: flex;
@@ -6,7 +8,7 @@
   min-height: 100vh;
   width: 100%;
   /* Fondo atractivo para la vista de escritorio */
-  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+  background: linear-gradient(135deg, #2575fc 0%, #1dbf8a 100%);
   padding: 1.25rem; /* 20px de padding */
 }
 
@@ -22,6 +24,8 @@
 }
 
 .login-box h2 {
+  font-family: "Amarante", serif;
+  font-weight: 800;
   margin-bottom: 1.5625rem; /* 25px */
   color: #333;
   font-size: 1.8rem;
@@ -34,6 +38,8 @@
 }
 
 .input-group label {
+  font-family: "Amarante", serif;
+  font-weight: 300;
   display: block;
   margin-bottom: 0.5rem; /* 8px */
   font-weight: bold;
@@ -56,13 +62,15 @@
 
 /* Estilo del botón */
 .login-button {
+  font-family: "Amarante", serif;
+  font-weight: 500;
   width: 100%;
   padding: 0.75rem; /* 12px */
   border: none;
-  border-radius: 0.3125rem; /* 5px */
-  background-color: #2575fc;
+  border-radius: 0.5rem; /* 5px */
+  background: linear-gradient(135deg, #1dbf8a 30%, #2575fc 70%);
   color: white;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   cursor: pointer;
   transition: background-color 0.3s ease;
   margin-top: 0.625rem; /* 10px */
