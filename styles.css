@@ -231,7 +231,7 @@ body {
 /* --- RESPONSIVE PARA EL MENÚ --- */
 @media (max-width: 768px) {
   .topheader {
-    padding: 0 1rem;
+    padding: 0rem;
     gap: 1rem;
   }
 
